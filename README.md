@@ -54,8 +54,8 @@ plt.scatter(df2["Annual Income (k$)"],df2["Spending Score (1-100)"],c="blue",lab
 plt.scatter(df3["Annual Income (k$)"],df3["Spending Score (1-100)"],c="green",label="clu
 plt.scatter(df4["Annual Income (k$)"],df4["Spending Score (1-100)"],c="magenta",label="c
 plt.legend()
-plt.title("Customer Segments") ```
-
+plt.title("Customer Segments") 
+```
 ## Ouput:
 
 ```
@@ -64,7 +64,7 @@ CustomerID 	Gender 	Age 	Annual Income (k$) 	Spending Score (1-100)
 1 	2 	Male 	21 	15 	81
 2 	3 	Female 	20 	16 	6
 3 	4 	Female 	23 	16 	77
-4 	5 	Female 	31 	17 	40  ```
+4 	5 	Female 	31 	17 	40  
 
 ```
 <class 'pandas.core.frame.DataFrame'>
@@ -80,7 +80,7 @@ Data columns (total 5 columns):
 dtypes: int64(4), object(1)
 memory usage: 7.9+ KB
 
-```
+
 CustomerID                0
 Gender                    0
 Age                       0
@@ -106,7 +106,7 @@ array([4, 3, 4, 3, 4, 3, 4, 3, 4, 3, 4, 3, 4, 3, 4, 3, 4, 3, 4, 3, 4, 3,
        0, 2, 0, 2, 0, 2, 0, 2, 0, 2, 0, 2, 0, 2, 0, 2, 0, 2, 0, 2, 0, 2,
        0, 2])
 
-![image](https://github.com/user-attachments/assets/b742ad8e-d862-47c0-ba1e-e9706607d9e1) ```
+![image](https://github.com/user-attachments/assets/b742ad8e-d862-47c0-ba1e-e9706607d9e1) 
 
 
 
