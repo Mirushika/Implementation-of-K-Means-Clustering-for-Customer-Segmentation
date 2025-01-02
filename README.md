@@ -8,11 +8,12 @@ To write a program to implement the K Means Clustering for Customer Segmentation
 2. Anaconda – Python 3.7 Installation / Jupyter notebook
 
 ## Algorithm
-1. 
-2. 
-3. 
-4. 
-
+```
+1.Import necessary libraries. 
+2.Use pd.read_csv() to load the Mall_Customers.csv dataset into a DataFrame. 
+3.Based on the Elbow Method, choose the optimal number of clusters (e.g., n_clusters=5). 
+4.Create a new column "cluster" in the DataFrame and assign the predicted clusters (y_pred) to it. 
+```
 ## Program:
 ```
 /*
@@ -66,7 +67,7 @@ CustomerID 	Gender 	Age 	Annual Income (k$) 	Spending Score (1-100)
 3 	4 	Female 	23 	16 	77
 4 	5 	Female 	31 	17 	40  
 
-```
+
 <class 'pandas.core.frame.DataFrame'>
 RangeIndex: 200 entries, 0 to 199
 Data columns (total 5 columns):
@@ -89,9 +90,9 @@ Spending Score (1-100)    0
 dtype: int64 ```
 
 Text(0.5, 1.0, 'Elbow Method')
-
+```
 ![image](https://github.com/user-attachments/assets/7733db9d-2723-4ad2-88f9-dc1bcb58f424)
-
+```
   KMeans 
 KMeans(n_clusters=5)
 
@@ -105,7 +106,7 @@ array([4, 3, 4, 3, 4, 3, 4, 3, 4, 3, 4, 3, 4, 3, 4, 3, 4, 3, 4, 3, 4, 3,
        0, 2, 0, 2, 0, 2, 0, 2, 0, 2, 0, 2, 0, 2, 0, 2, 0, 2, 0, 2, 0, 2,
        0, 2, 0, 2, 0, 2, 0, 2, 0, 2, 0, 2, 0, 2, 0, 2, 0, 2, 0, 2, 0, 2,
        0, 2])
-
+```
 ![image](https://github.com/user-attachments/assets/b742ad8e-d862-47c0-ba1e-e9706607d9e1) 
 
 
